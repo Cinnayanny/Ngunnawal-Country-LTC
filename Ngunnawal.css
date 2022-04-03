@@ -1,0 +1,11 @@
+h1 {
+    color: #dc711a;
+    text-align: center;
+}
+
+.gridcon {
+    display:grid;
+    grid-template-columns: auto auto; /*2 column grid, auto resize*/
+    grid-gap: 1em;
+    padding: 1em;
+}
