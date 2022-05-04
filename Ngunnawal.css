@@ -10,6 +10,18 @@ h1 {
     padding: 1em;
 }
 
+.gridcon2 {
+    display:grid;
+    grid-template-columns: auto auto auto; /*3 column grid, auto resize*/
+    grid-gap: 1em;
+    padding: 1em;
+}
+
+.full-width2 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
 .full-width {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -18,6 +30,7 @@ h1 {
 .navbar {
     overflow: hidden;
     background-color: #542424;
+    width: 100%;
 }
 
 .navbar a {
@@ -51,4 +64,14 @@ body {
 .TextonImage {
     position: relative;
     color: #b46527;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: #562f1f;
+    color: #9ea3b7;
+    text-align: center;
 }
