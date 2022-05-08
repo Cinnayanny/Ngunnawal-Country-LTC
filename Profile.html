@@ -25,6 +25,29 @@
         <p>
             Lorem ipsum dolor sit amet, I am Jen. Content content content.
         </p>
+        <form>
+            <p>
+                <label for="firstname">First Name</label>
+                <input type='text' id="firstname" name='firstname'>
+            </p>
+            <p>
+                <label for="lastname">Surname</label>
+                <input type='text' id="lastname" name='lastname'>
+            </p>
+            <p>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email">
+            </p>
+            <p>
+                <label for="phone">Mobile Number</label>
+                <input type="number" id="phone" name="phone">
+            </p>
+            <p>
+                <label for="issue">Please insert your reason for contacting me.</label>
+                <input type="text" id="issue" name="issue">
+            </p>
+            <button onclick="authentication(this.form)">Submit</button>
+        </form>
     </div>
 </div>
 <footer class="footer">
